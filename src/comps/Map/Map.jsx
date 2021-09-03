@@ -17,8 +17,8 @@ import Rating from "@material-ui/lab/Rating";
 import useStyles from "./styles";
 import mapStyles from "./mapStyles";
 
-// import dotenv from "dotenv";
-// dotenv.config();
+import dotenv from "dotenv";
+dotenv.config();
 
 const Map = ({
   weather,
