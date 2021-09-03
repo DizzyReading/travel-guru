@@ -29,7 +29,7 @@ const Header = ({ setCoordinates }) => {
           className={classes.title}
           sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
         >
-          Travel Advisor
+          Travel Guru
         </Typography>
         <Box display="flex">
           <Typography variant="h6" className={classes.title}>
