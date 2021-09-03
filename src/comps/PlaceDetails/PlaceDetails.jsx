@@ -7,16 +7,13 @@ import {
   CardContent,
   CardMedia,
   Chip,
-  CircularProgress,
   Typography,
 } from "@material-ui/core";
 import { HiLocationMarker } from "react-icons/hi";
 import { AiFillPhone } from "react-icons/ai";
 import Rating from "@material-ui/lab/Rating";
-import { css, cx } from "@emotion/css";
 
 import useStyles from "./styles";
-import { BiPhone } from "react-icons/bi";
 
 const PlaceDetails = ({ childClicked, place, selected, refProp }) => {
   const classes = useStyles();
